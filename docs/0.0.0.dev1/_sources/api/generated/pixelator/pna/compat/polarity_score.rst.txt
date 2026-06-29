@@ -1,7 +1,0 @@
-pixelator.pna.compat.polarity_score
-===================================
-
-.. py:function:: pixelator.pna.compat.polarity_score(pxl_dataset: pixelator.pna.pixeldataset.legacy.PNALegacyPixelDataset) -> pandas.DataFrame
-
-   Extract polarity scores from a PNAPixelDataset.
-
