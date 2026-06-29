@@ -1,0 +1,39 @@
+pixelator.pna.sample_calling.sample_calling.FindHashedNodesToRemove
+===================================================================
+
+.. py:class:: pixelator.pna.sample_calling.sample_calling.FindHashedNodesToRemove(hashing_antibody_mapping: pixelator.pna.sample_calling.hash_antibodies.HashedAntibodyMapping, sample_name: str)
+
+   Bases: :py:obj:`pixelator.pna.analysis_engine.PerComponentTask`
+
+
+   Find nodes to be removed in components with hashed antibodies.
+
+   Initialize the task with hashing antibody mapping and sample name.
+
+   :param hashing_antibody_mapping: Information about hashing antibodies, including a mapping from
+                                    sample names to lists of hashed antibody names.
+   :param sample_name: Sample name.
+
+
+   .. py:attribute:: TASK_NAME
+      :value: 'find-hashed-nodes-to-remove'
+
+
+
+   .. py:method:: concatenate_data(data: Tuple[polars.DataFrame]) -> polars.DataFrame
+
+      Concatenate the results from all components.
+
+
+
+   .. py:attribute:: hashing_antibody_mapping
+
+
+   .. py:method:: run_on_component_edgelist(component: polars.LazyFrame, component_id: str) -> polars.DataFrame
+
+      Find nodes to remove for one component.
+
+
+
+   .. py:attribute:: sample_name
+

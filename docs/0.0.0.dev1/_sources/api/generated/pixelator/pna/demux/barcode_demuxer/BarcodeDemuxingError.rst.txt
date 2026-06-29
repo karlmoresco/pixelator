@@ -1,0 +1,12 @@
+pixelator.pna.demux.barcode_demuxer.BarcodeDemuxingError
+========================================================
+
+.. py:exception:: pixelator.pna.demux.barcode_demuxer.BarcodeDemuxingError
+
+   Bases: :py:obj:`pixelator.common.exceptions.PixelatorBaseException`
+
+
+   An error occurred during barcode demultiplexing.
+
+   Initialize self.  See help(type(self)) for accurate signature.
+
