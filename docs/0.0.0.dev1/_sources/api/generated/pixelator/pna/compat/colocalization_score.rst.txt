@@ -1,7 +1,0 @@
-pixelator.pna.compat.colocalization_score
-=========================================
-
-.. py:function:: pixelator.pna.compat.colocalization_score(pxl_dataset: pixelator.pna.pixeldataset.legacy.PNALegacyPixelDataset) -> pandas.DataFrame
-
-   Extract colocalization scores from a PNAPixelDataset.
-
