@@ -1,0 +1,16 @@
+pixelator.pna.sample_calling.sample_calling.HashedSampleAnalysisManager
+=======================================================================
+
+.. py:class:: pixelator.pna.sample_calling.sample_calling.HashedSampleAnalysisManager(analysis_to_run: Iterable[PerComponentTask], logging_setup: LoggingSetup | None = None, n_cores: int | None = None, pxl_dataset_builder: Callable[[Iterable[pixelator.pna.pixeldataset.io.PxlFile]], pixelator.pna.pixeldataset.PNAPixelDataset] | None = None)
+
+   Bases: :py:obj:`pixelator.pna.analysis_engine.AnalysisManager`
+
+
+   Manager for sample calling analysis on hashed samples.
+
+
+   .. py:method:: execute(pixel_dataset: pixelator.pna.pixeldataset.PNAPixelDataset) -> polars.DataFrame
+
+      Execute the analysis on the provided pixel dataset.
+
+
