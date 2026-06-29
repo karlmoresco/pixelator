@@ -1,0 +1,12 @@
+pixelator.common.annotate.NoCellsFoundException
+===============================================
+
+.. py:exception:: pixelator.common.annotate.NoCellsFoundException
+
+   Bases: :py:obj:`pixelator.common.exceptions.PixelatorBaseException`
+
+
+   Raised when no cells are found in the edge list.
+
+   Initialize self.  See help(type(self)) for accurate signature.
+
