@@ -96,7 +96,7 @@ html_theme_options = {
     },
     "logo": {
         "image_light": "_static/pixelator.svg",
-    }
+    },
 }
 
 html_static_path = ["_static"]
