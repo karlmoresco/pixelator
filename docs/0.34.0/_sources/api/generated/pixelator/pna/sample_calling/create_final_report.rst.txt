@@ -1,7 +1,7 @@
 pixelator.pna.sample_calling.create_final_report
 ================================================
 
-.. py:function:: pixelator.pna.sample_calling.create_final_report(final_dataset: pixelator.pna.pixeldataset.PNAPixelDataset, undetermined_sample_name: str = 'undetermined') -> pixelator.pna.sample_calling.report.SampleCallingTotalReport
+.. py:function:: pixelator.pna.sample_calling.create_final_report(final_dataset: pixelator.pna.pixeldataset.PNAPixelDataset, undetermined_sample_name: str = 'undetermined') -> report.SampleCallingTotalReport
 
    Create the final report for the sample calling.
 

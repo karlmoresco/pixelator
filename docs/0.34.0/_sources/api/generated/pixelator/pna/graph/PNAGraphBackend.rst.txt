@@ -47,6 +47,7 @@ pixelator.pna.graph.PNAGraphBackend
       - pmds
       - pmds_3d
       - wpmds_3d
+      - spectral_3d
 
 
       For most cases the `coarsened_pmds_3d`, `wpmds_3d`, and `pmds` options should be

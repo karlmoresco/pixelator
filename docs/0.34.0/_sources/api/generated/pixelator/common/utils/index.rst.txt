@@ -31,7 +31,6 @@ Attributes
    pixelator.common.utils.PathType
    pixelator.common.utils.R1_REGEX
    pixelator.common.utils.R2_REGEX
-   pixelator.common.utils.T
    pixelator.common.utils.logger
 
 
@@ -100,8 +99,6 @@ Package Contents
 .. py:data:: R2_REGEX
    :value: '(.[Rr]2$)|(_[Rr]?2$)|(_[Rr]?2)(?P<suffix>_[0-9]{3})$'
 
-
-.. py:data:: T
 
 .. py:data:: logger
 

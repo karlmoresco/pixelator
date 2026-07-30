@@ -1143,13 +1143,13 @@ data for all of there putative cells.</p>
 <dl class="std option">
 <dt class="sig sig-object std" id="cmdoption-pixelator-single-cell-pna-graph-component-size-max-threshold">
 <span class="sig-name descname"><span class="pre">--component-size-max-threshold</span></span><span class="sig-prename descclassname"> <span class="pre">&lt;component_size_max_threshold&gt;</span></span><a class="headerlink" href="#cmdoption-pixelator-single-cell-pna-graph-component-size-max-threshold" title="Link to this definition">#</a></dt>
-<dd><p>Components with more nodes than this will be filtered from the output data. This is typically not needed. Setting this will disable the automatic size filtering.</p>
+<dd><p>Components with more nodes than this will be filtered from the output data. Setting this (or –component-size-min-threshold) switches from automatic (dynamic) component size filtering to a fixed threshold.</p>
 </dd></dl>
 
 <dl class="std option">
 <dt class="sig sig-object std" id="cmdoption-pixelator-single-cell-pna-graph-component-size-min-threshold">
 <span class="sig-name descname"><span class="pre">--component-size-min-threshold</span></span><span class="sig-prename descclassname"> <span class="pre">&lt;component_size_min_threshold&gt;</span></span><a class="headerlink" href="#cmdoption-pixelator-single-cell-pna-graph-component-size-min-threshold" title="Link to this definition">#</a></dt>
-<dd><p>Components with fewer nodes than this will be filtered from the output data. This is typically not needed. Setting this will disable the automatic size filtering.</p>
+<dd><p>Components with fewer nodes than this will be filtered from the output data. Setting this (or –component-size-max-threshold) switches from automatic (dynamic) component size filtering to a fixed threshold.</p>
 </dd></dl>
 
 <dl class="std option">
@@ -1350,7 +1350,7 @@ data for all of there putative cells.</p>
 <dd><p>Select a layout algorithm to use. This can be specified multiple times to compute multiple layouts. Default: coarsened_pmds_3d</p>
 <dl class="field-list simple">
 <dt class="field-odd">Options<span class="colon">:</span></dt>
-<dd class="field-odd"><p>fruchterman_reingold | fruchterman_reingold_3d | kamada_kawai | kamada_kawai_3d | pmds | pmds_3d | wpmds_3d | coarsened_pmds_3d</p>
+<dd class="field-odd"><p>fruchterman_reingold | fruchterman_reingold_3d | kamada_kawai | kamada_kawai_3d | pmds | pmds_3d | wpmds_3d | coarsened_pmds_3d | spectral_3d</p>
 </dd>
 </dl>
 </dd></dl>

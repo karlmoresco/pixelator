@@ -16,7 +16,6 @@ Attributes
 
 .. autoapisummary::
 
-   pixelator.pna.analysis_engine.T
    pixelator.pna.analysis_engine.logger
 
 
@@ -52,8 +51,6 @@ Functions
 
 Module Contents
 ---------------
-
-.. py:data:: T
 
 .. py:data:: logger
 

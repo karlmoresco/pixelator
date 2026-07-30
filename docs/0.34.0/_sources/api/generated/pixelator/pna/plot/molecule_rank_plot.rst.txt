@@ -1,7 +1,7 @@
 pixelator.pna.plot.molecule_rank_plot
 =====================================
 
-.. py:function:: pixelator.pna.plot.molecule_rank_plot(data: pandas.DataFrame, group_by: Optional[str] = None) -> Tuple[matplotlib.pyplot.Figure, matplotlib.pyplot.Axes]
+.. py:function:: pixelator.pna.plot.molecule_rank_plot(data: pandas.DataFrame, group_by: Optional[str] = None) -> Tuple[matplotlib.figure.Figure, matplotlib.axes.Axes]
 
    Plot molecule count (``n_umi``) per component against component rank (based on ``n_umi``).
 

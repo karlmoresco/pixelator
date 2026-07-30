@@ -1,7 +1,7 @@
 pixelator.pna.demux.pipeline.DemuxWriterProcess
 ===============================================
 
-.. py:class:: pixelator.pna.demux.pipeline.DemuxWriterProcess(output_directory: pathlib.Path, filename_policy: DemuxFilenamePolicy, queue: multiprocessing.Queue, connection: multiprocessing.connection.Connection, schema: pyarrow.schema)
+.. py:class:: pixelator.pna.demux.pipeline.DemuxWriterProcess(output_directory: pathlib.Path, filename_policy: DemuxFilenamePolicy, queue: multiprocessing.Queue, connection: multiprocessing.connection.Connection, schema: pyarrow.Schema)
 
    Bases: :py:obj:`mpctx_Process`
 

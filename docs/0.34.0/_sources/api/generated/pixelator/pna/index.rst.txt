@@ -22,7 +22,6 @@ Submodules
    /api/generated/pixelator/pna/analysis_engine/index
    /api/generated/pixelator/pna/anndata/index
    /api/generated/pixelator/pna/collapse/index
-   /api/generated/pixelator/pna/compat/index
    /api/generated/pixelator/pna/config/index
    /api/generated/pixelator/pna/demux/index
    /api/generated/pixelator/pna/graph/index

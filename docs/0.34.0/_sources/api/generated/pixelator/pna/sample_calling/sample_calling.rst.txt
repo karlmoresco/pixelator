@@ -1,7 +1,7 @@
 pixelator.pna.sample_calling.sample_calling
 ===========================================
 
-.. py:function:: pixelator.pna.sample_calling.sample_calling(input_pxl: pixelator.pna.pixeldataset.PNAPixelDataset, hashing_antibody_mapping: pixelator.pna.sample_calling.hash_antibodies.HashedAntibodyMapping, output_folder: pathlib.Path, enrichment_threshold: float = 10.0, remove_incompatible: bool = True, undetermined_sample_name: str = 'undetermined') -> list[pathlib.Path]
+.. py:function:: pixelator.pna.sample_calling.sample_calling(input_pxl: pixelator.pna.pixeldataset.PNAPixelDataset, hashing_antibody_mapping: hash_antibodies.HashedAntibodyMapping, output_folder: pathlib.Path, enrichment_threshold: float = 10.0, remove_incompatible: bool = True, undetermined_sample_name: str = 'undetermined') -> list[pathlib.Path]
 
    Split components of a pixel dataset by their sample.
 

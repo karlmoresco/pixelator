@@ -17,7 +17,6 @@ Attributes
 .. autoapisummary::
 
    pixelator.pna.collapse.independent.collapser.CollapsibleRegion
-   pixelator.pna.collapse.independent.collapser.T
    pixelator.pna.collapse.independent.collapser.logger
 
 
@@ -46,8 +45,6 @@ Module Contents
 ---------------
 
 .. py:data:: CollapsibleRegion
-
-.. py:data:: T
 
 .. py:data:: logger
 

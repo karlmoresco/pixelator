@@ -11,14 +11,6 @@ pixelator.common.report.models.summary_statistics
 
 
 
-Attributes
-----------
-
-.. autoapisummary::
-
-   pixelator.common.report.models.summary_statistics.T
-
-
 Classes
 -------
 
@@ -31,9 +23,4 @@ Classes
 
    pixelator.common.report.models.summary_statistics.SummaryStatistics
 
-
-Module Contents
----------------
-
-.. py:data:: T
 

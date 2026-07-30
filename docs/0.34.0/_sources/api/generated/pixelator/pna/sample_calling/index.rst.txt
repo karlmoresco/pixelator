@@ -19,7 +19,6 @@ Submodules
 
    /api/generated/pixelator/pna/sample_calling/hash_antibodies/index
    /api/generated/pixelator/pna/sample_calling/report/index
-   /api/generated/pixelator/pna/sample_calling/sample_calling/index
 
 
 Functions

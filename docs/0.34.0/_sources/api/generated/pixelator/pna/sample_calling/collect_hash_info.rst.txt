@@ -1,7 +1,7 @@
 pixelator.pna.sample_calling.collect_hash_info
 ==============================================
 
-.. py:function:: pixelator.pna.sample_calling.collect_hash_info(input_pxl_file: pixelator.pna.pixeldataset.PNAPixelDataset, hashed_antibody_mapping: pixelator.pna.sample_calling.hash_antibodies.HashedAntibodyMapping, enrichment_threshold: float, undetermined_sample_name: str = 'undetermined') -> polars.DataFrame
+.. py:function:: pixelator.pna.sample_calling.collect_hash_info(input_pxl_file: pixelator.pna.pixeldataset.PNAPixelDataset, hashed_antibody_mapping: hash_antibodies.HashedAntibodyMapping, enrichment_threshold: float, undetermined_sample_name: str = 'undetermined') -> polars.DataFrame
 
    Map components to samples in an sample-hashed dataset.
 

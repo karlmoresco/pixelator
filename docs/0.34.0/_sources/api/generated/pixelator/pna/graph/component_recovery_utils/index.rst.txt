@@ -57,7 +57,7 @@ Functions
    /api/generated/pixelator/pna/graph/component_recovery_utils/remove_clashing_umis
    /api/generated/pixelator/pna/graph/component_recovery_utils/remove_umis
    /api/generated/pixelator/pna/graph/component_recovery_utils/save_new_working_edgelist
-   /api/generated/pixelator/pna/graph/component_recovery_utils/write_hive_partitioned_edgelist_without_small_components
+   /api/generated/pixelator/pna/graph/component_recovery_utils/write_hive_partitioned_edgelist_without_out_of_size_bound_components
 
 .. autoapisummary::
 
@@ -77,7 +77,7 @@ Functions
    pixelator.pna.graph.component_recovery_utils.remove_clashing_umis
    pixelator.pna.graph.component_recovery_utils.remove_umis
    pixelator.pna.graph.component_recovery_utils.save_new_working_edgelist
-   pixelator.pna.graph.component_recovery_utils.write_hive_partitioned_edgelist_without_small_components
+   pixelator.pna.graph.component_recovery_utils.write_hive_partitioned_edgelist_without_out_of_size_bound_components
 
 
 Module Contents

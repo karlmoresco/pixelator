@@ -23,6 +23,8 @@ Submodules
    /api/generated/pixelator/common/exceptions/index
    /api/generated/pixelator/common/graph/index
    /api/generated/pixelator/common/marks/index
+   /api/generated/pixelator/common/plot/index
+   /api/generated/pixelator/common/report/index
    /api/generated/pixelator/common/statistics/index
    /api/generated/pixelator/common/types/index
    /api/generated/pixelator/common/utils/index
