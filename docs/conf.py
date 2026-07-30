@@ -122,7 +122,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 _docs_version = os.environ.get("DOCS_VERSION", "latest")
 _docs_base_url = os.environ.get(
     "DOCS_BASE_URL",
-    "https://karlmoresco.github.io/pixelator",
+    "https://PixelgenTechnologies.github.io/pixelator",
 ).rstrip("/")
 
 html_baseurl = f"{_docs_base_url}/"
@@ -150,6 +150,7 @@ html_static_path = ["_static"]
 html_css_files = ["custom.css"]
 
 python_maximum_signature_line_length = 40
+python_use_unqualified_type_names = True
 
 autodoc_member_order = "alphabetical"
 autodoc_typehints = "signature"
