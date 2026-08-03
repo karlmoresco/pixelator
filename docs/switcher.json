@@ -1,8 +1,12 @@
 [
   {
-    "version": "0.36.0",
-    "url": "https://karlmoresco.github.io/pixelator/0.36.0/",
+    "version": "0.37.0",
+    "url": "https://karlmoresco.github.io/pixelator/0.37.0/",
     "preferred": true
+  },
+  {
+    "version": "0.36.0",
+    "url": "https://karlmoresco.github.io/pixelator/0.36.0/"
   },
   {
     "version": "0.35.0",
